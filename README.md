@@ -10,6 +10,9 @@ The project uses [pip-tools](https://pypi.org/project/pip-tools/) to manage depe
 * **If the scripts won't work because of uncompatibility regarding non-ASCII characters,
   you can use the ascii_... versions**
 
+# Video
+* To generate videos, you have to install `ffmpeg` and adding it to PATH (or use a different [FileWriter](https://matplotlib.org/3.2.1/api/animation_api.html))
+
 ## classical.py
 Generates figures 1 and 5 (classical)
 * You can tweak the parameters in `Model and computational constants` and `Visualization and video options` 
