@@ -47,16 +47,16 @@ if __name__ == "__main__":
     ################## Model and computational constants #######################
     Λ = 25
     ΔE = 0
-    GRIDSIZE = 100000
-    t_max = 50
-    Δt = 0.1
+    GRIDSIZE = 50
+    t_max = 3.5
+    Δt = 0.01
 
     ################### Visualization and video options ########################
     interframe_interval = 20
-    video_file = 'vid/Test.mp4' # False means no video is produced
+    video_file = False # False means no video is produced
     video_duration_seconds = 30 # 
 
-    option = "FIG. 5 Phase space video"
+    option = "FIG. 1 TWA trajectories"
 
     options = (
         "FIG. 5 Phase space video",
@@ -95,7 +95,7 @@ if __name__ == "__main__":
             plt.show()
 
 
-    if option == options[1]:
+    if option == "FIG. 1 TWA trajectories":
         plt.figure(figsize=(7, 6))
         plt.plot(z, t, "b-", lw=1)
         plt.axis((z.min(), z.max(), t.min(), t.max()))
