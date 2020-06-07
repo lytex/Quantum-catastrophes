@@ -56,9 +56,6 @@ if __name__ == "__main__":
     video_file = 'vid/Test.mp4' # False means no video is produced
     video_duration_seconds = 30 # 
 
-
-    default_option = "FIG. 5 Phase space video"
-
     option = "FIG. 5 Phase space video"
 
     options = (
