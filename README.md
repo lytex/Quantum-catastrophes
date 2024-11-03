@@ -1,6 +1,6 @@
 # Quantum-catastrophes
 
-Python code for "Emergence of singularities from decoherence: Quantum catastrophes" (not author's code)
+Python code for "[Emergence of singularities from decoherence: Quantum catastrophes](https://arxiv.org/abs/1609.05602)" (not author's code)
 
 # Usage
 
